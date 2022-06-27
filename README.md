@@ -1,5 +1,7 @@
 # Dir-Walk
-**Dir-Walk** (`dir_walk.sh`) is a [bash](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29) script to recursively walk a directory tree and do something useful within each directory. One such example is the generation of an [M3U file](https://en.wikipedia.org/wiki/M3U) for any directory that contains [OGG audio files](https://en.wikipedia.org/wiki/Ogg#Ogg_codecs) (see the script itself for details). This script however, as written, just outputs the full path of the current directory from the directory root passed in.
+**Dir-Walk** (`dir_walk.sh`) is a [bash](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29) script to recursively walk a directory tree and do something useful within each directory.
+
+One such example is the generation of an [M3U file](https://en.wikipedia.org/wiki/M3U) for any directory that contains [OGG audio files](https://en.wikipedia.org/wiki/Ogg#Ogg_codecs) (see the script itself for details). This script however, as written, just outputs the full path of the current directory from the directory root passed in.
 
 [<img src="https://user-images.githubusercontent.com/10182110/175392693-4124b8eb-f306-4177-abea-c219599728c3.png">](https://commons.wikimedia.org/wiki/File:Sierpinski_pyramid.png)
 
