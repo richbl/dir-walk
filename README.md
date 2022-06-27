@@ -3,9 +3,9 @@
 
 [<img src="https://user-images.githubusercontent.com/10182110/175392693-4124b8eb-f306-4177-abea-c219599728c3.png">](https://commons.wikimedia.org/wiki/File:Sierpinski_pyramid.png)
 
-## [Developed with a Bash Template (BaT)](https://github.com/user/a-bash-template)[<img src="https://user-images.githubusercontent.com/10182110/145758715-b127adfc-710b-49d3-9ede-151adc83ae76.png" width="150" />](https://github.com/user/a-bash-template)
+## [Developed with a Bash Template (BaT)](https://github.com/richbl/a-bash-template)[<img src="https://user-images.githubusercontent.com/10182110/145758715-b127adfc-710b-49d3-9ede-151adc83ae76.png" width="150" />](https://github.com/richbl/a-bash-template)
 
-**Dir-Walk** uses a Bash shell template (BaT) called **[A-Bash-Template](https://github.com/user/a-bash-template)** designed to make script development and command line argument management more robust, easier to implement, and easier to maintain. Here are a few of those features:
+**Dir-Walk** uses a Bash shell template (BaT) called **[A-Bash-Template](https://github.com/richbl/a-bash-template)** designed to make script development and command line argument management more robust, easier to implement, and easier to maintain. Here are a few of those features:
 
 - Dependencies checker: a routine that checks all external program dependencies (*e.g.*, [jq](https://stedolan.github.io/jq/))
 - Arguments and script details--such as script description and syntax--are stored in the [JSON](http://www.json.org/) file format (*i.e.*, `config.json`)
@@ -13,9 +13,9 @@
 - A script banner function automates banner generation, reading directly from `config.json`
 - Command line arguments are parsed and tested for completeness using both short and long-format argument syntax (*e.g.*, `-f|--font`)
 - Optional command line arguments are permissible and managed through the JSON configuration file
-- Template functions organized into libraries (see the [Bash-Lib](https://github.com/user/bash-lib) project for details) to minimize code footprint in the main script
+- Template functions organized into libraries (see the [Bash-Lib](https://github.com/richbl/bash-lib) project for details) to minimize code footprint in the main script
 
-For more details about using a bash template, [check out the BaT sources here](https://github.com/user/a-bash-template).
+For more details about using a bash template, [check out the BaT sources here](https://github.com/richbl/a-bash-template).
 
 ## Requirements
 
