@@ -72,7 +72,7 @@ When arguments are correctly passed, the script provides feedback on the success
 
 > **Note that the current script simply outputs the current directory "visited" and nothing more. The script also included a line (commented out) that will create an [M3U file](https://en.wikipedia.org/wiki/M3U) if [OGG audio files](https://en.wikipedia.org/wiki/Ogg#Ogg_codecs) are found in that directory. Pretty cool!**
 
-## >> A Note on Cloning: This Project Uses Git Submodules
+## IMPORTANT: This Project Uses Git Submodules <img src="https://user-images.githubusercontent.com/10182110/198916805-2c139481-8d92-4484-b92e-1d440df68045.jpg" width="150" />
 
 This project uses a Git [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) project, specifically the `bash-lib` folder to keep project libraries up-to-date without manual intervention.
 
