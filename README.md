@@ -3,7 +3,7 @@
 
 One such example is the generation of an [M3U file](https://en.wikipedia.org/wiki/M3U) for any directory that contains [OGG audio files](https://en.wikipedia.org/wiki/Ogg#Ogg_codecs) (see the script itself for details). This script however, as written, just outputs the full path of the current directory from the directory root passed in.
 
-<picture><img src="https://user-images.githubusercontent.com/10182110/175392693-4124b8eb-f306-4177-abea-c219599728c3.png"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/10182110/175392693-4124b8eb-f306-4177-abea-c219599728c3.png"><source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/10182110/175392693-4124b8eb-f306-4177-abea-c219599728c3.png"><img src="https://user-images.githubusercontent.com/10182110/175392693-4124b8eb-f306-4177-abea-c219599728c3.png"></picture>
 
 ## [Developed with a Bash Template (BaT)](https://github.com/richbl/a-bash-template)[<img src="https://user-images.githubusercontent.com/10182110/145758715-b127adfc-710b-49d3-9ede-151adc83ae76.png" width="150" />](https://github.com/richbl/a-bash-template)
 
@@ -70,10 +70,8 @@ When arguments are correctly passed, the script provides feedback on the success
     /home/user/music/Alan Parsons
     /home/user/music/Alan Parsons/Try Anything Once
 
-> **Note that the current script simply outputs the current directory "visited" and nothing more. The script also included a line (commented out) that will create an [M3U file](https://en.wikipedia.org/wiki/M3U) if [OGG audio files](https://en.wikipedia.org/wiki/Ogg#Ogg_codecs) are found in that directory. Pretty cool!**
+## IMPORTANT: This Project Uses Git Submodules <picture><source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/10182110/208980142-08d4cf6e-20ac-4243-ac69-e056258b0315.png" width="150"><source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/10182110/208980142-08d4cf6e-20ac-4243-ac69-e056258b0315.png" width="150"><img src="https://user-images.githubusercontent.com/10182110/208980142-08d4cf6e-20ac-4243-ac69-e056258b0315.png" width="150"></picture>
 
-## IMPORTANT: This Project Uses Git Submodules  <picture><img src="https://user-images.githubusercontent.com/10182110/208980142-08d4cf6e-20ac-4243-ac69-e056258b0315.png" width="150" /></picture>
+This project uses [Git submodule project(s)](https://git-scm.com/book/en/v2/Git-Tools-Submodules) (located in the `bash-lib` folder) to keep this project up-to-date without manual intervention.
 
-This project uses a Git [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) project, specifically the `bash-lib` folder to keep this project up-to-date without manual intervention.
-
-So, be sure to clone this project with the `--recursive` switch (`git clone --recursive https://github.com/richbl/this_project`) so any submodule project(s) will be automatically cloned as well. If you clone into this project without this switch, you'll likely see empty submodule project folders (depending on your version of Git).
+**Be sure to clone this project with the `--recursive` switch** (`git clone --recursive https://github.com/richbl/this_project`) so any submodule project(s) will be automatically cloned as well. If you clone into this project without this switch, you'll likely see empty submodule project folders (depending on your version of Git).
