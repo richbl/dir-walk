@@ -5,7 +5,7 @@ One such example is the generation of an [M3U file](https://en.wikipedia.org/wik
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/10182110/175392693-4124b8eb-f306-4177-abea-c219599728c3.png"><source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/10182110/175392693-4124b8eb-f306-4177-abea-c219599728c3.png"><img src="https://user-images.githubusercontent.com/10182110/175392693-4124b8eb-f306-4177-abea-c219599728c3.png"></picture>
 
-## [Developed with a Bash Template (BaT)](https://github.com/richbl/a-bash-template)[<img src="https://user-images.githubusercontent.com/10182110/145758715-b127adfc-710b-49d3-9ede-151adc83ae76.png" width="150" />](https://github.com/richbl/a-bash-template)
+## [<img src="https://github.com/user-attachments/assets/4dc1e16e-3fd3-481c-9a43-b027c029dd27" width="150" />](https://github.com/richbl/a-bash-template)[Developed with a Bash Template (BaT)](https://github.com/richbl/a-bash-template)
 
 **Dir-Walk** uses a Bash shell template (BaT) called **[A-Bash-Template](https://github.com/richbl/a-bash-template)** designed to make script development and command line argument management more robust, easier to implement, and easier to maintain. Here are a few of those features:
 
